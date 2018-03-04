@@ -1,0 +1,52 @@
+var friendsArray = [
+    {
+        "name":"George",
+        "photo":"https://upload.wikimedia.org/wikipedia/commons/8/8d/George_Clooney_2016.jpg",
+        "scores":[
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+          ]
+    },
+    {
+        "name":"Halle",
+        "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Halle_Berry_by_Gage_Skidmore_2.jpg/220px-Halle_Berry_by_Gage_Skidmore_2.jpg",
+        "scores":[
+            5,
+            3,
+            4,
+            4,
+            3,
+            1,
+            4,
+            5,
+            1,
+            1
+          ]
+    },
+    {
+        "name":"Arnold",
+        "photo":"https://upload.wikimedia.org/wikipedia/commons/e/ed/Arnold_Schwarzenegger_2003.jpg",
+        "scores":[
+            1,
+            1,
+            4,
+            3,
+            5,
+            5,
+            4,
+            5,
+            4,
+            3
+          ]
+    }
+];
+
+module.exports = friendsArray;
