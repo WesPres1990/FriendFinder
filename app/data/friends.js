@@ -1,21 +1,5 @@
 var friendsArray = [
     {
-        "name":"George",
-        "photo":"https://upload.wikimedia.org/wikipedia/commons/8/8d/George_Clooney_2016.jpg",
-        "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-          ]
-    },
-    {
         "name":"Halle",
         "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Halle_Berry_by_Gage_Skidmore_2.jpg/220px-Halle_Berry_by_Gage_Skidmore_2.jpg",
         "scores":[
@@ -28,6 +12,22 @@ var friendsArray = [
             4,
             5,
             1,
+            1
+          ]
+    },
+    {
+        "name":"George",
+        "photo":"https://upload.wikimedia.org/wikipedia/commons/8/8d/George_Clooney_2016.jpg",
+        "scores":[
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
             1
           ]
     },
