@@ -8,7 +8,7 @@ module.exports = function(app) {
 	app.post('/api/friends', function(req, res) {
 		var userData = req.body;
 		var userResponses = userData;
-		var totalDifference = 41;
+		var totalDifference = Infinity;
 		var bestMatch;
 
 		for (var i = 0; i < friends.length; i++) {
@@ -17,7 +17,7 @@ module.exports = function(app) {
 				diff += Math.abs(parseInt(friends[i]) - parseInt(userResponses[j]));
 			}
 
-			if (diff < totalDifference) {
+			if (diff <= totalDifference) {
 				totalDifference = diff;
 				bestMatch = friends[i];
 			}
