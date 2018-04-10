@@ -21,14 +21,17 @@ npm [path](https://www.npmjs.com/package/path)
 npm [bodyParser](https://www.npmjs.com/package/body-parser)
 
 
-
 ### Technologies Used
 
-Languages - HTML5, CSS4, Boostrap, Javascript, Node.js
+Languages - HTML5, CSS4, JavaScript
 
-Other - API Routes
+Libraries - Bootstrap, jQuery
 
-Text Editor - VS Studio
+Run-time system - Node.js
+
+Other tools, technologies, and techniques - API Routes
+
+Text Editor - Visual Studio Code
 
 
 ## Preview
